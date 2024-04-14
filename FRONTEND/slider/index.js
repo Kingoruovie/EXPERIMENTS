@@ -32,11 +32,11 @@
 //     }
 // })
 
-
-const input = document.querySelector("input")
+const input = document.querySelector("input");
 input.addEventListener("input", (event) => {
-    let value = Number(event.target.value)
-    input.style.background = `linear-gradient(to right, #f50 ${value}%, #ccc ${value}%)`
-    //  = `linear-gradient(to right, #00FFAB ${value}%, #fff ${100 - value}%)`
-    console.log(input.style.background)
-})
+  let value = Number(event.target.value);
+  input.style.background = `linear-gradient(to right, #f50 ${value}%, #ccc ${value}%)`;
+  //  = `linear-gradient(to right, #00FFAB ${value}%, #fff ${100 - value}%)`
+  console.log(input.style.background);
+});
+
